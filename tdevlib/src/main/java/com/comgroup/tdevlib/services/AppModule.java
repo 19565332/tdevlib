@@ -20,7 +20,7 @@ import org.slf4j.Logger;
  */
 public class AppModule {
 
-	public static void bind(ServiceBinder binder) {
+	public static void bind(ServiceBinder binder){
 		// binder.bind(MyServiceInterface.class, MyServiceImpl.class);
 
 		// Make bind() calls on the binder object to define most IoC services.
@@ -29,8 +29,7 @@ public class AppModule {
 		// invoking the constructor.
 	}
 
-	public static void contributeFactoryDefaults(
-			MappedConfiguration<String, Object> configuration) {
+	public static void contributeFactoryDefaults(MappedConfiguration<String, Object> configuration) {
 		// The application version number is incorprated into URLs for some
 		// assets. Web browsers will cache assets because of the far future
 		// expires
@@ -44,8 +43,7 @@ public class AppModule {
 		configuration.override(SymbolConstants.APPLICATION_VERSION,"0.1.20121026");
 	}
 
-	public static void contributeApplicationDefaults(
-			MappedConfiguration<String, Object> configuration) {
+	public static void contributeApplicationDefaults(MappedConfiguration<String, Object> configuration) {
 		// Contributions to ApplicationDefaults will override any contributions
 		// to
 		// FactoryDefaults (with the same key). Here we're restricting the
