@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <!--
-
 Design by Free CSS Templates
 http://www.freecsstemplates.org
 Released for free under a Creative Commons Attribution 2.5 License
@@ -10,9 +9,8 @@ Version    : 1.0
 Released   : 20080825
 Description: A Web 2.0 design with fluid width suitable for blogs and small websites.
 -->
-        <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
-      xmlns:p="tapestry:parameter">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+       xmlns:p="tapestry:parameter">
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
         <title>${title}</title>
