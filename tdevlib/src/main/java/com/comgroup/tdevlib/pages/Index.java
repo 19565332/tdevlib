@@ -33,7 +33,6 @@ public class Index {
 
 	void onActionFromIncrement() {
 		alertManager.info("Increment clicked");
-
 		clickCount++;
 	}
 
